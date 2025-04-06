@@ -1,144 +1,79 @@
-# Soul Sync 
-### Built with 💙 by Team HITR
+# 🧘‍♀️ Stress Level Analysis Tool – with Conversational AI “Sahara”
+
+## 📌 Category: Intermediate-Level Problem Statement
+
+### 🧠 Problem Statement
+The **Stress Level Analysis Tool** is an intelligent application that assesses users' stress levels using a structured questionnaire and offers personalized coping strategies. This tool aims to raise awareness, provide real-time emotional support, and guide users toward a healthier lifestyle.
 
 ---
 
-## 👥 Team Members
-
-- Charvi Singh
-- Ananya Gupta
-- Aditi Singh
-- Devanshi Jaiswal
-- Aditi Jain
-  
+## 🎯 Use Case
+This tool enables users to:
+- 🧭 **Evaluate current stress levels**
+- 🔍 **Identify key stress triggers**
+- 💡 **Receive personalized coping strategies**
 
 ---
 
-## 🎯 Project Overview
+## ✨ Key Features
 
-**Soul Sync** is an AI-powered mental health platform designed to enhance stress awareness and provide scientifically tailored coping strategies using the **Perceived Stress Scale (PSS)**. 
+### ✅ Questionnaire-Based Stress Assessment
+- Uses scientifically backed scales like **PSS** (Perceived Stress Scale) or **Holmes-Rahe Stress Inventory**
+- Assesses emotional, physical, lifestyle, and social stress triggers
 
-Through a seamless user experience powered by AI tools like **Gemini**, **Botpress**, and **Vapi**, Soul Sync enables real-time emotional analysis, personalized assistance, and expert interaction.
+### ✅ Stress Level Evaluation
+- Scores categorized into **Low**, **Moderate**, or **High** stress levels
+- Easy-to-understand explanations provided for each score
 
----
+### ✅ Personalized Coping Strategies
+- 🧘 **Mindfulness Exercises** – Meditation, deep breathing, muscle relaxation  
+- 📅 **Time Management Tips** – Pomodoro Technique, prioritization methods  
+- 🧍‍♂️ **Physical Activity Suggestions** – Light exercise, yoga, stretching  
+- 💬 **Social Support Guidance** – Encouraging connections with loved ones  
+- 💤 **Sleep Improvement Tips** – Sleep hygiene, routines, and relaxation techniques  
 
-## 🌟 Key Features
+### 🤖 Conversational AI Companion – **“Sahara”**
+- An interactive AI assistant designed to:
+  - Engage users in natural conversation
+  - Offer real-time emotional support
+  - Recommend personalized stress relief strategies
+  - Be available whenever users feel overwhelmed or need someone to talk to
 
-- 🧘 **Daily Tracking**  
-  Log your **water intake**, **sleep duration**, **exercise**, and **meditation** time.
+### 📈 Progress Tracking & Smart Reminders
+- Users can take periodic assessments to track their stress levels over time
+- Optional reminders to follow coping routines and check in on mental well-being
 
-- 📊 **PSS Score Calculator**  
-  Measures stress levels via a scientifically validated questionnaire.
+### 📚 Educational Resource Hub
+- Curated articles, videos, and podcasts on:
+  - Stress management
+  - Emotional resilience
+  - Mental health awareness
+- Includes links to professional mental health services if needed
 
-- 🤖 **CopeMate** *(Powered by Gemini Prompt Engineering)*  
-  Offers **personalized coping strategies** based on **age, gender, profession, and stress score**.
+### 🖥️ User-Friendly Interface
+- Clean and minimal design for users of all ages
+- Simple navigation for assessments and viewing results
+- Accessible language and icons
 
-- 🎭 **Emoto Bot** *(Botpress Multimedia Bot)*  
-  Engages in emotion-focused interactions using gifs, sounds, and affirmations.
+### 🔐 Confidential & Private
+- No personal data required
+- Stress results stored anonymously and used only for self-assessment
 
-- 💬 **Chatbot Support** *(Botpress)*  
-  Available site-wide for general help and emotional guidance.
-
-- 🎥 **Go Live**  
-  Real-time **video call support** with trained volunteers or peers.
-
-- 📅 **Webinar Scheduling**  
-  Users can request and schedule expert webinars.
-
-- 📞 **AI Voice Calling Agent** *(Vapi)*  
-  Users talk to an AI voice agent for mental health support, with **real-time transcripts**.
-
-- 🧑‍⚕️ **1:1 Mentor Booking**  
-  Book a session with certified counselors (**payment integrated**).
-
----
-
-## 🔄 Workflow
-
-```text
-1. Start
-2. [New User?] → Sign Up → Set Profile (Name, Age, Gender, Profession) → Login
-3. [Returning User?] → Login
-4. Login → Home Page
-
-From Home Page:
-    → Daily Update (Water, Sleep, Meditation, Exercise)
-    → PSS Calculator → Generate Stress Level
-    → CopeMate → AI Suggestions
-    → Emoto Bot → Emotional Interaction
-    → Botpress Chatbot → Continuous Guidance
-    → Webinar Request → Schedule Event
-    → Go Live → Real-Time Video Chat
-    → 1:1 Mentor Booking → Certified Counselor
-    → Voice Agent → Talk with AI (Transcript)
-
-➡️ **All features aim to enhance mental health awareness and support.**
-```
+### 🌐 Optional: Multilingual Support
+- Designed for diverse users in workplaces, schools, and communities
 
 ---
 
-## 🧠 AI & Technology Stack
+## 💡 Tech Stack & Implementation Notes
 
-| Feature              | Tech Used                              |
-|----------------------|----------------------------------------|
-| Chatbot Support      | 🟦 Botpress (Emoto + General Chatbot)   |
-| Personalized Coping  | 🔷 Gemini Prompt Engineering (CopeMate) |
-| Voice Agent          | 🟨 Vapi Voice Agent with Transcript      |
-| Backend              | 🔧 Node.js, MongoDB                     |
-| Frontend             | ⚛️ React.js                            |
-| Authentication       | 🔐 Firebase Auth                        |
-| Payments             | 💳 Razorpay                             |
+- **Frontend:** Web-based UI (e.g., HTML/CSS/JS or React)
+- **Backend Logic:** Python or Node.js
+- **Stress Assessment:** Microsoft Forms or embedded custom surveys
+- **Conversational AI:** Python (Chatbot), integrated via web interface
 
 ---
 
-## Key Features
-- 🧠 Integrated **AI voice**, **chatbot**, and **multimedia emotional support**
-- 📈 Personalized coping via PSS scoring and real-world context
-- 🔗 Unified experience combining GenAI with real-world needs
-- 📹 Built an MVP with **1:1 support**, live features, and counselor integration
-
----
-
-## 🎯 Target Audience
-- 🧑‍🎓 **Students**: Struggling with academic pressure and future uncertainties.
-- 👩‍💻 **Working Professionals**: Facing burnout, imbalance, and productivity dips.
-- 🧓 **Senior Citizens**: In need of emotional support and companionship.
-- 👨‍👩‍👧‍👦 **General Public**: Seeking an accessible, stigma-free mental wellness resource.
-- 🌍 **Rural & Multilingual Communities**: Who face cultural or linguistic barriers in accessing mental health support.
-
---- 
-
-
-## 💼 Business Model
-1. **Freemium Access**: 
-   - Core features like PSS-based stress score, Emoto Bot, and educational content are free.
-2. **Premium Subscription** *(₹99/month)*:
-   - Access to advanced analytics, personalized mental fitness plans, emotion recognition AI, and multilingual therapy bots.
-3. **Paid Services**:
-   - Book 1:1 professional counseling sessions with certified therapists.
-   - Host or attend live webinars and wellness events.
-4. **Institutional Licensing**:
-   - Subscription packages for schools, universities, and corporate organizations with admin dashboards and analytics.
-5. **Sponsorship & CSR Collaboration**:
-   - Tie-ups with NGOs and government schemes for rural mental health outreach.
-
-## 💰 Costing (Rough Estimate)
-| Feature/Module                          | Cost (INR)        | Description                                               |
-|----------------------------------------|-------------------|-----------------------------------------------------------|
-| Frontend Development (React, Tailwind) | ₹20,000           | UI/UX, responsive design, multilingual support            |
-| Backend (Express.js, MongoDB)          | ₹15,000           | Secure API creation, user handling, session tracking      |
-| Firebase Authentication                | ₹2,000 (free tier)| For user login, session auth                              |
-| AI & Emotion Model (Python, DeepFace)  | ₹30,000           | Training + Deployment on Hugging Face/Streamlit           |
-| Emoto Bot & LangChain Integration      | ₹25,000           | Prompt engineering and personalized bot logic             |
-| Infrastructure & Hosting               | ₹10,000           | Cloud deployment, analytics integration                   |
-| Total Estimated MVP Cost               | **₹1,02,000**     | Covers tech, hosting, and AI integration                  |
-
-## 📺 Demo Video
-
-[🔗 Watch Demo](https://youtu.be/YOUR_DEMO_LINK_HERE)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+## 🚀 Getting Started (Optional)
+```bash
+git clone https://github.com/yourusername/stress-level-analysis-tool.git
+cd stress-level-analysis-tool
